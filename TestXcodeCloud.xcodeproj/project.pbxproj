@@ -11,7 +11,27 @@
 		9E15B115276B26C000FD9D1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E15B114276B26C000FD9D1C /* ContentView.swift */; };
 		9E15B117276B26C500FD9D1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E15B116276B26C500FD9D1C /* Assets.xcassets */; };
 		9E15B11A276B26C500FD9D1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E15B119276B26C500FD9D1C /* Preview Assets.xcassets */; };
+		9E6CEC392779A44400EE6BC8 /* TestXcodeCloudForDirkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6CEC382779A44400EE6BC8 /* TestXcodeCloudForDirkUITests.swift */; };
+		9E6CEC3B2779A44400EE6BC8 /* TestXcodeCloudForDirkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6CEC3A2779A44400EE6BC8 /* TestXcodeCloudForDirkUITestsLaunchTests.swift */; };
+		9E6CEC482779A45500EE6BC8 /* TestXcodeCloudForDirkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6CEC472779A45500EE6BC8 /* TestXcodeCloudForDirkTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E6CEC3C2779A44400EE6BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E15B107276B26C000FD9D1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E15B10E276B26C000FD9D1C;
+			remoteInfo = TestXcodeCloud;
+		};
+		9E6CEC492779A45500EE6BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E15B107276B26C000FD9D1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E15B10E276B26C000FD9D1C;
+			remoteInfo = TestXcodeCloud;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9E15B10F276B26C000FD9D1C /* TestXcodeCloudForDirk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestXcodeCloudForDirk.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +39,29 @@
 		9E15B114276B26C000FD9D1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E15B116276B26C500FD9D1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E15B119276B26C500FD9D1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E6CEC362779A44400EE6BC8 /* TestXcodeCloudForDirkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestXcodeCloudForDirkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6CEC382779A44400EE6BC8 /* TestXcodeCloudForDirkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestXcodeCloudForDirkUITests.swift; sourceTree = "<group>"; };
+		9E6CEC3A2779A44400EE6BC8 /* TestXcodeCloudForDirkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestXcodeCloudForDirkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9E6CEC452779A45500EE6BC8 /* TestXcodeCloudForDirkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestXcodeCloudForDirkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6CEC472779A45500EE6BC8 /* TestXcodeCloudForDirkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestXcodeCloudForDirkTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9E15B10C276B26C000FD9D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6CEC332779A44400EE6BC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6CEC422779A45500EE6BC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				9E15B111276B26C000FD9D1C /* TestXcodeCloud */,
+				9E6CEC372779A44400EE6BC8 /* TestXcodeCloudForDirkUITests */,
+				9E6CEC462779A45500EE6BC8 /* TestXcodeCloudForDirkTests */,
 				9E15B110276B26C000FD9D1C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				9E15B10F276B26C000FD9D1C /* TestXcodeCloudForDirk.app */,
+				9E6CEC362779A44400EE6BC8 /* TestXcodeCloudForDirkUITests.xctest */,
+				9E6CEC452779A45500EE6BC8 /* TestXcodeCloudForDirkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +110,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9E6CEC372779A44400EE6BC8 /* TestXcodeCloudForDirkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E6CEC382779A44400EE6BC8 /* TestXcodeCloudForDirkUITests.swift */,
+				9E6CEC3A2779A44400EE6BC8 /* TestXcodeCloudForDirkUITestsLaunchTests.swift */,
+			);
+			path = TestXcodeCloudForDirkUITests;
+			sourceTree = "<group>";
+		};
+		9E6CEC462779A45500EE6BC8 /* TestXcodeCloudForDirkTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E6CEC472779A45500EE6BC8 /* TestXcodeCloudForDirkTests.swift */,
+			);
+			path = TestXcodeCloudForDirkTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -87,6 +147,42 @@
 			productReference = 9E15B10F276B26C000FD9D1C /* TestXcodeCloudForDirk.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9E6CEC352779A44400EE6BC8 /* TestXcodeCloudForDirkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E6CEC402779A44400EE6BC8 /* Build configuration list for PBXNativeTarget "TestXcodeCloudForDirkUITests" */;
+			buildPhases = (
+				9E6CEC322779A44400EE6BC8 /* Sources */,
+				9E6CEC332779A44400EE6BC8 /* Frameworks */,
+				9E6CEC342779A44400EE6BC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E6CEC3D2779A44400EE6BC8 /* PBXTargetDependency */,
+			);
+			name = TestXcodeCloudForDirkUITests;
+			productName = TestXcodeCloudForDirkUITests;
+			productReference = 9E6CEC362779A44400EE6BC8 /* TestXcodeCloudForDirkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9E6CEC442779A45500EE6BC8 /* TestXcodeCloudForDirkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E6CEC4B2779A45500EE6BC8 /* Build configuration list for PBXNativeTarget "TestXcodeCloudForDirkTests" */;
+			buildPhases = (
+				9E6CEC412779A45500EE6BC8 /* Sources */,
+				9E6CEC422779A45500EE6BC8 /* Frameworks */,
+				9E6CEC432779A45500EE6BC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E6CEC4A2779A45500EE6BC8 /* PBXTargetDependency */,
+			);
+			name = TestXcodeCloudForDirkTests;
+			productName = TestXcodeCloudForDirkTests;
+			productReference = 9E6CEC452779A45500EE6BC8 /* TestXcodeCloudForDirkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +195,14 @@
 				TargetAttributes = {
 					9E15B10E276B26C000FD9D1C = {
 						CreatedOnToolsVersion = 13.0;
+					};
+					9E6CEC352779A44400EE6BC8 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9E15B10E276B26C000FD9D1C;
+					};
+					9E6CEC442779A45500EE6BC8 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9E15B10E276B26C000FD9D1C;
 					};
 				};
 			};
@@ -116,6 +220,8 @@
 			projectRoot = "";
 			targets = (
 				9E15B10E276B26C000FD9D1C /* TestXcodeCloud */,
+				9E6CEC352779A44400EE6BC8 /* TestXcodeCloudForDirkUITests */,
+				9E6CEC442779A45500EE6BC8 /* TestXcodeCloudForDirkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +233,20 @@
 			files = (
 				9E15B11A276B26C500FD9D1C /* Preview Assets.xcassets in Resources */,
 				9E15B117276B26C500FD9D1C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6CEC342779A44400EE6BC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6CEC432779A45500EE6BC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +262,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9E6CEC322779A44400EE6BC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6CEC3B2779A44400EE6BC8 /* TestXcodeCloudForDirkUITestsLaunchTests.swift in Sources */,
+				9E6CEC392779A44400EE6BC8 /* TestXcodeCloudForDirkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6CEC412779A45500EE6BC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6CEC482779A45500EE6BC8 /* TestXcodeCloudForDirkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E6CEC3D2779A44400EE6BC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E15B10E276B26C000FD9D1C /* TestXcodeCloud */;
+			targetProxy = 9E6CEC3C2779A44400EE6BC8 /* PBXContainerItemProxy */;
+		};
+		9E6CEC4A2779A45500EE6BC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E15B10E276B26C000FD9D1C /* TestXcodeCloud */;
+			targetProxy = 9E6CEC492779A45500EE6BC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9E15B11B276B26C500FD9D1C /* Debug */ = {
@@ -321,6 +471,96 @@
 			};
 			name = Release;
 		};
+		9E6CEC3E2779A44400EE6BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7975JGHKWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benbaobao.TestXcodeCloudForDirkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestXcodeCloud;
+			};
+			name = Debug;
+		};
+		9E6CEC3F2779A44400EE6BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7975JGHKWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benbaobao.TestXcodeCloudForDirkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestXcodeCloud;
+			};
+			name = Release;
+		};
+		9E6CEC4C2779A45500EE6BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7975JGHKWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benbaobao.TestXcodeCloudForDirkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestXcodeCloudForDirk.app/TestXcodeCloudForDirk";
+			};
+			name = Debug;
+		};
+		9E6CEC4D2779A45500EE6BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7975JGHKWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benbaobao.TestXcodeCloudForDirkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestXcodeCloudForDirk.app/TestXcodeCloudForDirk";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -338,6 +578,24 @@
 			buildConfigurations = (
 				9E15B11E276B26C500FD9D1C /* Debug */,
 				9E15B11F276B26C500FD9D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E6CEC402779A44400EE6BC8 /* Build configuration list for PBXNativeTarget "TestXcodeCloudForDirkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6CEC3E2779A44400EE6BC8 /* Debug */,
+				9E6CEC3F2779A44400EE6BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E6CEC4B2779A45500EE6BC8 /* Build configuration list for PBXNativeTarget "TestXcodeCloudForDirkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6CEC4C2779A45500EE6BC8 /* Debug */,
+				9E6CEC4D2779A45500EE6BC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
