@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9E15B10F276B26C000FD9D1C /* TestXcodeCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestXcodeCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E15B10F276B26C000FD9D1C /* TestXcodeCloudForDirk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestXcodeCloudForDirk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E15B112276B26C000FD9D1C /* TestXcodeCloudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestXcodeCloudApp.swift; sourceTree = "<group>"; };
 		9E15B114276B26C000FD9D1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E15B116276B26C500FD9D1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		9E15B110276B26C000FD9D1C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E15B10F276B26C000FD9D1C /* TestXcodeCloud.app */,
+				9E15B10F276B26C000FD9D1C /* TestXcodeCloudForDirk.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = TestXcodeCloud;
 			productName = TestXcodeCloud;
-			productReference = 9E15B10F276B26C000FD9D1C /* TestXcodeCloud.app */;
+			productReference = 9E15B10F276B26C000FD9D1C /* TestXcodeCloudForDirk.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -283,8 +283,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.benbaobao.TestXcodeCloud;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benbaobao.TestXcodeCloudforDirk;
+				PRODUCT_NAME = TestXcodeCloudForDirk;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,8 +313,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.benbaobao.TestXcodeCloud;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benbaobao.TestXcodeCloudforDirk;
+				PRODUCT_NAME = TestXcodeCloudForDirk;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
